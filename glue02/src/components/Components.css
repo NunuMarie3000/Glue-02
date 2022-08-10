@@ -1,0 +1,31 @@
+.app-container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 15px;
+    background-color: aqua;
+    padding: 2vh 2vw;
+}
+h2{
+    font-family: 'Poppins', sans-serif;
+    font-size: 60px;
+}
+.navbar{
+    display: flex;
+    gap: 20px;
+}
+.navbar >a{
+    text-decoration: none;
+}
+
+.carousel{
+    width: fit-content;
+}
+.black-text{
+    color: black;
+}
+
+.carousel-control-next,
+.carousel-control-prev /*, .carousel-indicators */ {
+    filter: invert(100%);
+}
