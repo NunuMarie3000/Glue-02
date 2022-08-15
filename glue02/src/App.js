@@ -11,7 +11,9 @@ export default class App extends Component {
     return (
       <div className='app-container'>
         <Header/>
-        <Main/>
+        <div className='main-container'>
+          <Main/>
+        </div>
         <Footer year={2022}/>
       </div>
     )

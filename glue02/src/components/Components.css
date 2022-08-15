@@ -6,6 +6,25 @@
     background-color: aqua;
     padding: 2vh 2vw;
 }
+
+.main-container{
+    display: flex;
+    flex-direction: column;
+}
+
+.input-form{
+    display: flex;
+    flex-direction: row;
+    align-items: flex-end;
+}
+
+.returned-cards{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: space-evenly;
+}
+
 h2{
     font-family: 'Poppins', sans-serif;
     font-size: 60px;
@@ -17,10 +36,6 @@ h2{
 .navbar >a{
     text-decoration: none;
 }
-
-.carousel{
-    width: fit-content;
-}
 .black-text{
     color: black;
 }
@@ -28,4 +43,9 @@ h2{
 .carousel-control-next,
 .carousel-control-prev /*, .carousel-indicators */ {
     filter: invert(100%);
+}
+
+.input-form{
+    display: flex;
+    flex-direction: column;
 }
